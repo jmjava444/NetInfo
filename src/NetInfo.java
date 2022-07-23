@@ -23,6 +23,6 @@ public class NetInfo
             // Note to self! Remember it's like this: if(i < mac.length) do "-", else ""
             sb.append(String.format("%02X%s", mac[i], (i < mac.length - 1) ? "-" : ""));
         }
-        System.out.println("MAC Address: " + sb.toString());
+        System.out.println("MAC Address: " + sb);
     }
 }
